@@ -1,0 +1,621 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Rajappa Wood Works</title>
+
+    <style>
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f5f0e6;
+            color: #333;
+        }
+
+        /* HEADER */
+
+        header {
+            background-color: #5a3219;
+            color: white;
+            text-align: center;
+            padding: 25px;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 38px;
+        }
+
+        header p {
+            font-size: 18px;
+        }
+
+        /* NAVIGATION */
+
+        nav {
+            background-color: #2f1a0d;
+            text-align: center;
+            padding: 15px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 15px;
+            font-size: 18px;
+        }
+
+        nav a:hover {
+            color: #ffd27f;
+        }
+
+        /* HOME */
+
+        .home {
+            text-align: center;
+            padding: 70px 20px;
+            background-color: #d9b382;
+        }
+
+        .home h2 {
+            font-size: 42px;
+            color: #3b1f0e;
+        }
+
+        .home p {
+            font-size: 20px;
+        }
+
+        /* BUTTON */
+
+        .btn {
+            background-color: #5a3219;
+            color: white;
+            padding: 12px 25px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        .btn:hover {
+            background-color: #2f1a0d;
+        }
+
+        /* SECTIONS */
+
+        section {
+            padding: 50px 20px;
+            text-align: center;
+        }
+
+        section h2 {
+            color: #5a3219;
+            font-size: 32px;
+        }
+
+        /* PRODUCTS */
+
+        .products {
+            display: flex;
+            justify-content: center;
+            gap: 25px;
+            flex-wrap: wrap;
+        }
+
+        .card {
+            background-color: white;
+            width: 270px;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px gray;
+        }
+
+        .card:hover {
+            transform: scale(1.03);
+        }
+
+        .card img {
+            width: 100%;
+            height: 170px;
+            object-fit: cover;
+            border-radius: 8px;
+        }
+
+        .card h3 {
+            color: #5a3219;
+            font-size: 22px;
+        }
+
+        .card p {
+            line-height: 1.5;
+        }
+
+        /* ABOUT */
+
+        .about {
+            background-color: #ead8bf;
+        }
+
+        .about p {
+            max-width: 800px;
+            margin: auto;
+            font-size: 18px;
+            line-height: 1.7;
+        }
+
+        /* LOCATION */
+
+        .location {
+            background-color: #d9b382;
+        }
+
+        .location p {
+            font-size: 18px;
+        }
+
+        .map-button {
+            display: inline-block;
+            margin-top: 15px;
+            background-color: #5a3219;
+            color: white;
+            padding: 14px 25px;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        .map-button:hover {
+            background-color: #2f1a0d;
+        }
+
+        /* CONTACT */
+
+        .contact {
+            background-color: white;
+        }
+
+        input,
+        textarea {
+            width: 80%;
+            max-width: 600px;
+            padding: 12px;
+            margin: 8px;
+            border: 1px solid gray;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+
+        textarea {
+            resize: none;
+        }
+
+        /* FOOTER */
+
+        footer {
+            background-color: #2f1a0d;
+            color: white;
+            text-align: center;
+            padding: 25px;
+        }
+
+        /* MOBILE */
+
+        @media (max-width: 600px) {
+
+            header h1 {
+                font-size: 28px;
+            }
+
+            nav a {
+                display: block;
+                margin: 10px;
+            }
+
+            .home h2 {
+                font-size: 30px;
+            }
+
+            input,
+            textarea {
+                width: 95%;
+            }
+        }
+
+    </style>
+</head>
+
+
+<body>
+
+
+<!-- HEADER -->
+
+<header>
+
+    <h1>🪵 Rajappa Wood Works</h1>
+
+    <p>
+        Windows Frames | Door Frames | Wood Work
+    </p>
+
+</header>
+
+
+<!-- NAVIGATION -->
+
+<nav>
+
+    <a href="#home">Home</a>
+
+    <a href="#products">Our Work</a>
+
+    <a href="#about">About</a>
+
+    <a href="#location">Location</a>
+
+    <a href="#contact">Contact</a>
+
+</nav>
+
+
+<!-- HOME -->
+
+<section class="home" id="home">
+
+    <h2>
+        Welcome to Rajappa Wood Works
+    </h2>
+
+    <p>
+        Quality Wooden Windows Frames and Professional Wood Work
+    </p>
+
+    <p>
+        We provide strong, durable and beautiful woodwork
+        for homes, offices and buildings.
+    </p>
+
+    <br>
+
+    <button class="btn" onclick="showMessage()">
+        Explore Our Work
+    </button>
+
+</section>
+
+
+<!-- OUR WORK -->
+
+<section id="products">
+
+    <h2>Our Wood Work</h2>
+
+    <div class="products">
+
+
+        <!-- WINDOW FRAMES -->
+
+        <div class="card">
+
+            <img
+                src="window.jpg"
+                alt="Wooden Window Frames">
+
+            <h3>
+                Window Frames
+            </h3>
+
+            <p>
+                Strong and durable wooden window frames
+                made according to customer requirements.
+            </p>
+
+            <button
+                class="btn"
+                onclick="order('Window Frames')">
+
+                Enquire
+
+            </button>
+
+        </div>
+
+
+        <!-- DOOR FRAMES -->
+
+        <div class="card">
+
+            <img
+                src="door.jpg"
+                alt="Wooden Door Frames">
+
+            <h3>
+                Door Frames
+            </h3>
+
+            <p>
+                High quality wooden door frames for
+                houses, offices and buildings.
+            </p>
+
+            <button
+                class="btn"
+                onclick="order('Door Frames')">
+
+                Enquire
+
+            </button>
+
+        </div>
+
+
+        <!-- WOOD WORK -->
+
+        <div class="card">
+
+            <img
+                src="woodwork.jpg"
+                alt="Wood Work">
+
+            <h3>
+                Wood Work
+            </h3>
+
+            <p>
+                Professional woodwork for houses,
+                offices and other buildings.
+            </p>
+
+            <button
+                class="btn"
+                onclick="order('Wood Work')">
+
+                Enquire
+
+            </button>
+
+        </div>
+
+
+        <!-- CUSTOM WORK -->
+
+        <div class="card">
+
+            <img
+                src="customwood.jpg"
+                alt="Custom Wood Work">
+
+            <h3>
+                Custom Wood Work
+            </h3>
+
+            <p>
+                Custom wooden designs and work according
+                to your requirements.
+            </p>
+
+            <button
+                class="btn"
+                onclick="order('Custom Wood Work')">
+
+                Enquire
+
+            </button>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ABOUT -->
+
+<section class="about" id="about">
+
+    <h2>
+        About Rajappa Wood Works
+    </h2>
+
+    <p>
+
+        Rajappa Wood Works is a woodwork business
+        specializing in wooden window frames,
+        door frames and custom woodwork.
+
+    </p>
+
+    <br>
+
+    <p>
+
+        We focus on quality materials, strong
+        construction and good finishing to provide
+        durable woodwork for our customers.
+
+    </p>
+
+</section>
+
+
+<!-- LOCATION -->
+
+<section class="location" id="location">
+
+    <h2>📍 Our Location</h2>
+
+    <p>Visit Rajappa Wood Works</p>
+
+    <p>📌 Rajappa Wood Works</p>
+
+    <p>📍 Kolar, Karnataka, India</p>
+
+    <!-- EXACT LOCATION MAP -->
+
+    <div style="margin-top: 25px;">
+
+        <iframe
+            src="https://www.google.com/maps?q=12.865298,78.196341&output=embed"
+            width="100%"
+            height="400"
+            style="border:0; border-radius:10px;"
+            allowfullscreen=""
+            loading="lazy">
+        </iframe>
+
+    </div>
+
+    <br>
+
+    <!-- GET DIRECTIONS -->
+
+    <a
+        class="map-button"
+        href="https://www.google.com/maps/dir/?api=1&destination=12.865298,78.196341"
+        target="_blank"
+        rel="noopener noreferrer">
+
+        🧭 Get Directions to Rajappa Wood Works
+
+    </a>
+
+</section>
+
+
+<!-- CONTACT -->
+
+<section class="contact" id="contact">
+
+    <h2>
+        📞 9731002875
+    </h2>
+
+    <form onsubmit="submitForm(event)">
+
+
+        <input
+            type="text"
+            id="name"
+            placeholder="Rajappa M"
+            required>
+
+        <br>
+
+
+        <input
+            type="tel"
+            id="phone"
+            placeholder="9731002875"
+            required>
+
+        <br>
+
+
+        <input
+            type="email"
+            id="email"
+            placeholder="mrk018740@gmail.com"
+            required>
+
+        <br>
+
+
+        <textarea
+            id="message"
+            rows="5"
+            placeholder="Enter Your Requirement"
+            required>
+        </textarea>
+
+        <br>
+
+        <button
+            class="btn"
+            type="submit">
+
+            Send Enquiry
+
+        </button>
+
+    </form>
+
+</section>
+
+
+<!-- FOOTER -->
+
+<footer>
+
+    <h3>
+        Rajappa Wood Works
+    </h3>
+
+    <p>
+        Windows Frames | Door Frames | Wood Work
+    </p>
+
+    <p>
+        📍 Kolar, Karnataka, India
+    </p>
+
+    <p>
+        © 2026 Rajappa Wood Works
+    </p>
+
+</footer>
+
+
+<!-- JAVASCRIPT -->
+
+<script>
+
+
+function showMessage() {
+
+    alert(
+        "Welcome to Rajappa Wood Works!"
+    );
+
+}
+
+
+function order(product) {
+
+    alert(
+        "You selected: " +
+        product +
+        "\n\nPlease contact Rajappa Wood Works for more details."
+    );
+
+}
+
+
+function submitForm(event) {
+
+    event.preventDefault();
+
+    let name =
+        document.getElementById("name").value;
+
+    alert(
+        "Thank you " +
+        name +
+        "!\n\nYour enquiry has been received."
+    );
+
+    document
+        .querySelector("form")
+        .reset();
+
+}
+
+
+</script>
+
+
+</body>
+</html>
