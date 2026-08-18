@@ -8,7 +8,6 @@
     <title>Rajappa Wood Works</title>
 
     <style>
-
         * {
             box-sizing: border-box;
         }
@@ -24,8 +23,11 @@
             color: #333;
         }
 
+<<<<<<< HEAD
         /* ================= HEADER ================= */
 
+=======
+>>>>>>> 42183aa (Update Rajappa Wood Works website)
         header {
             background-color: #5a3219;
             color: white;
@@ -43,8 +45,11 @@
             margin-bottom: 0;
         }
 
+<<<<<<< HEAD
         /* ================= NAVIGATION ================= */
 
+=======
+>>>>>>> 42183aa (Update Rajappa Wood Works website)
         nav {
             background-color: #2f1a0d;
             text-align: center;
@@ -65,8 +70,11 @@
             color: #ffd27f;
         }
 
+<<<<<<< HEAD
         /* ================= HOME ================= */
 
+=======
+>>>>>>> 42183aa (Update Rajappa Wood Works website)
         .home {
             text-align: center;
             padding: 70px 20px;
@@ -83,8 +91,11 @@
             line-height: 1.6;
         }
 
+<<<<<<< HEAD
         /* ================= BUTTON ================= */
 
+=======
+>>>>>>> 42183aa (Update Rajappa Wood Works website)
         .btn {
             background-color: #5a3219;
             color: white;
@@ -101,8 +112,11 @@
             transform: scale(1.03);
         }
 
+<<<<<<< HEAD
         /* ================= SECTIONS ================= */
 
+=======
+>>>>>>> 42183aa (Update Rajappa Wood Works website)
         section {
             padding: 50px 20px;
             text-align: center;
@@ -113,8 +127,11 @@
             font-size: 32px;
         }
 
+<<<<<<< HEAD
         /* ================= PRODUCTS ================= */
 
+=======
+>>>>>>> 42183aa (Update Rajappa Wood Works website)
         .products {
             display: flex;
             justify-content: center;
@@ -152,8 +169,11 @@
             min-height: 70px;
         }
 
+<<<<<<< HEAD
         /* ================= ABOUT ================= */
 
+=======
+>>>>>>> 42183aa (Update Rajappa Wood Works website)
         .about {
             background-color: #ead8bf;
         }
@@ -165,8 +185,11 @@
             line-height: 1.7;
         }
 
+<<<<<<< HEAD
         /* ================= LOCATION ================= */
 
+=======
+>>>>>>> 42183aa (Update Rajappa Wood Works website)
         .location {
             background-color: #d9b382;
         }
@@ -197,12 +220,15 @@
             border-radius: 5px;
         }
 
+<<<<<<< HEAD
         .map-button:hover {
             background-color: #2f1a0d;
         }
 
         /* ================= CONTACT ================= */
 
+=======
+>>>>>>> 42183aa (Update Rajappa Wood Works website)
         .contact {
             background-color: white;
         }
@@ -223,8 +249,11 @@
             min-height: 120px;
         }
 
+<<<<<<< HEAD
         /* ================= FOOTER ================= */
 
+=======
+>>>>>>> 42183aa (Update Rajappa Wood Works website)
         footer {
             background-color: #2f1a0d;
             color: white;
@@ -232,7 +261,11 @@
             padding: 25px;
         }
 
+<<<<<<< HEAD
         /* ================= POPUP ================= */
+=======
+        /* WINDOW POPUP */
+>>>>>>> 42183aa (Update Rajappa Wood Works website)
 
         .modal {
             display: none;
@@ -243,7 +276,11 @@
             width: 100%;
             height: 100%;
             overflow-y: auto;
+<<<<<<< HEAD
             background-color: rgba(0, 0, 0, 0.85);
+=======
+            background-color: rgba(0, 0, 0, 0.8);
+>>>>>>> 42183aa (Update Rajappa Wood Works website)
             padding: 30px 15px;
         }
 
@@ -252,7 +289,11 @@
             margin: auto;
             padding: 25px;
             border-radius: 12px;
+<<<<<<< HEAD
             max-width: 1100px;
+=======
+            max-width: 1000px;
+>>>>>>> 42183aa (Update Rajappa Wood Works website)
             text-align: center;
             position: relative;
         }
@@ -262,8 +303,11 @@
             margin-top: 5px;
         }
 
+<<<<<<< HEAD
         /* ================= POPUP IMAGES ================= */
 
+=======
+>>>>>>> 42183aa (Update Rajappa Wood Works website)
         .modal-images {
             display: flex;
             justify-content: center;
@@ -275,7 +319,11 @@
 
         .modal-images img {
             width: 45%;
+<<<<<<< HEAD
             max-width: 450px;
+=======
+            max-width: 400px;
+>>>>>>> 42183aa (Update Rajappa Wood Works website)
             max-height: 500px;
             object-fit: contain;
             border-radius: 8px;
@@ -283,6 +331,7 @@
             background-color: #f5f0e6;
         }
 
+<<<<<<< HEAD
         /* ================= EXPLORE GALLERY ================= */
 
         .explore-gallery {
@@ -316,6 +365,8 @@
 
         /* ================= CLOSE BUTTON ================= */
 
+=======
+>>>>>>> 42183aa (Update Rajappa Wood Works website)
         .close {
             position: absolute;
             top: 8px;
@@ -330,8 +381,11 @@
             color: red;
         }
 
+<<<<<<< HEAD
         /* ================= CALL BUTTON ================= */
 
+=======
+>>>>>>> 42183aa (Update Rajappa Wood Works website)
         .call-button {
             display: inline-block;
             margin-top: 20px;
@@ -341,6 +395,7 @@
             padding: 13px 25px;
             border-radius: 6px;
             font-size: 17px;
+<<<<<<< HEAD
             transition: 0.3s;
         }
 
@@ -391,6 +446,9 @@
         }
 
         /* ================= MOBILE ================= */
+=======
+        }
+>>>>>>> 42183aa (Update Rajappa Wood Works website)
 
         @media (max-width: 600px) {
 
@@ -420,6 +478,7 @@
             textarea {
                 width: 95%;
             }
+<<<<<<< HEAD
 
             .modal-content {
                 padding: 20px 10px;
@@ -447,9 +506,21 @@
             }
 
         }
+=======
+>>>>>>> 42183aa (Update Rajappa Wood Works website)
 
+            .modal-content {
+                padding: 20px 10px;
+            }
+
+            .modal-images img {
+                width: 100%;
+                max-width: 100%;
+            }
+        }
     </style>
 
+<<<<<<< HEAD
 </head>
 
 <body>
@@ -459,9 +530,13 @@
 <!-- HEADER -->
 <!-- ================================================= -->
 
-<header>
+=======
+<body>
 
+>>>>>>> 42183aa (Update Rajappa Wood Works website)
+<header>
     <h1>🪵 Rajappa Wood Works</h1>
+<<<<<<< HEAD
 
     <p>
         Window Frames | Door Frames | Plywood Works | Custom Wood Works
@@ -474,20 +549,20 @@
 <!-- NAVIGATION -->
 <!-- ================================================= -->
 
+=======
+    <p>Windows Frames | Door Frames | Wood Work</p>
+</header>
+
+>>>>>>> 42183aa (Update Rajappa Wood Works website)
 <nav>
-
     <a href="#home">Home</a>
-
     <a href="#products">Our Work</a>
-
     <a href="#about">About</a>
-
     <a href="#location">Location</a>
-
     <a href="#contact">Contact</a>
-
 </nav>
 
+<<<<<<< HEAD
 
 <!-- ================================================= -->
 <!-- HOME -->
@@ -496,13 +571,18 @@
 <section
     class="home"
     id="home">
+=======
+<section class="home" id="home">
+>>>>>>> 42183aa (Update Rajappa Wood Works website)
 
-    <h2>
-        Welcome to Rajappa Wood Works
-    </h2>
+    <h2>Welcome to Rajappa Wood Works</h2>
 
     <p>
+<<<<<<< HEAD
         Quality Wooden Window Frames and Professional Wood Works
+=======
+        Quality Wooden Window Frames and Professional Wood Work
+>>>>>>> 42183aa (Update Rajappa Wood Works website)
     </p>
 
     <p>
@@ -522,11 +602,14 @@
 
 </section>
 
+<<<<<<< HEAD
 
 <!-- ================================================= -->
 <!-- OUR WORK -->
 <!-- ================================================= -->
 
+=======
+>>>>>>> 42183aa (Update Rajappa Wood Works website)
 <section id="products">
 
     <h2>
@@ -535,18 +618,16 @@
 
     <div class="products">
 
-
         <!-- WINDOW FRAMES -->
 
         <div class="card">
 
+            <!-- YOUR IMAGE -->
             <img
                 src="shopping-2.webp"
                 alt="Wooden Window Frames">
 
-            <h3>
-                Window Frames
-            </h3>
+            <h3>Window Frames</h3>
 
             <p>
                 Strong and durable wooden window frames
@@ -563,7 +644,6 @@
 
         </div>
 
-
         <!-- DOOR FRAMES -->
 
         <div class="card">
@@ -572,9 +652,7 @@
                 src="door-frame-1.webp"
                 alt="Door Frames">
 
-            <h3>
-                Door Frames
-            </h3>
+            <h3>Door Frames</h3>
 
             <p>
                 High quality door frames with strong
@@ -591,8 +669,12 @@
 
         </div>
 
+<<<<<<< HEAD
 
         <!-- PLYWOOD WORKS -->
+=======
+        <!-- WOOD WORK -->
+>>>>>>> 42183aa (Update Rajappa Wood Works website)
 
         <div class="card">
 
@@ -600,9 +682,13 @@
                 src="windows1.webp"
                 alt="Plywood Works">
 
+<<<<<<< HEAD
             <h3>
                 Plywood Works
             </h3>
+=======
+            <h3>Wood Work</h3>
+>>>>>>> 42183aa (Update Rajappa Wood Works website)
 
             <p>
                 Professional plywood work for houses,
@@ -619,11 +705,39 @@
 
         </div>
 
+<<<<<<< HEAD
+=======
+        <!-- CUSTOM WOOD WORK -->
+
+        <div class="card">
+
+            <img
+                src="customwood.jpg"
+                alt="Custom Wood Work">
+
+            <h3>Custom Wood Work</h3>
+
+            <p>
+                Custom wooden designs and work according
+                to your requirements.
+            </p>
+
+            <button
+                class="btn"
+                onclick="order('Custom Wood Work')">
+
+                Enquire
+
+            </button>
+
+        </div>
+>>>>>>> 42183aa (Update Rajappa Wood Works website)
 
     </div>
 
 </section>
 
+<<<<<<< HEAD
 
 <!-- ================================================= -->
 <!-- ABOUT -->
@@ -632,15 +746,22 @@
 <section
     class="about"
     id="about">
+=======
+<section class="about" id="about">
+>>>>>>> 42183aa (Update Rajappa Wood Works website)
 
-    <h2>
-        About Rajappa Wood Works
-    </h2>
+    <h2>About Rajappa Wood Works</h2>
 
     <p>
+<<<<<<< HEAD
         Rajappa Wood Works is a professional woodwork
         business specializing in wooden window frames,
         door frames and plywood works.
+=======
+        Rajappa Wood Works is a woodwork business
+        specializing in wooden window frames,
+        door frames and custom woodwork.
+>>>>>>> 42183aa (Update Rajappa Wood Works website)
     </p>
 
     <br>
@@ -649,6 +770,7 @@
         We focus on quality materials, strong
         construction and good finishing to provide
         durable woodwork for our customers.
+<<<<<<< HEAD
     </p>
 
     <br>
@@ -657,10 +779,13 @@
         We provide customized woodwork according to
         customer requirements for homes, offices
         and other buildings.
+=======
+>>>>>>> 42183aa (Update Rajappa Wood Works website)
     </p>
 
 </section>
 
+<<<<<<< HEAD
 
 <!-- ================================================= -->
 <!-- LOCATION -->
@@ -669,6 +794,9 @@
 <section
     class="location"
     id="location">
+=======
+<section class="location" id="location">
+>>>>>>> 42183aa (Update Rajappa Wood Works website)
 
     <h2>
         📍 Our Location
@@ -683,6 +811,7 @@
     </p>
 
     <p>
+<<<<<<< HEAD
         📍 12.8774071, 78.2031740
     </p>
 
@@ -691,16 +820,32 @@
 
         <iframe
             src="https://www.google.com/maps?q=12.8774071,78.2031740&output=embed"
+=======
+        📍 Kamasamudram - Bangarpet Main Road,
+        Karnataka - 563129
+    </p>
+
+    <div class="map-container">
+
+        <iframe
+            src="https://www.google.com/maps?q=12.876553,78.199321&output=embed"
+>>>>>>> 42183aa (Update Rajappa Wood Works website)
             allowfullscreen
             loading="lazy">
         </iframe>
 
     </div>
 
+<<<<<<< HEAD
 
     <a
         class="map-button"
         href="https://www.google.com/maps/dir/?api=1&destination=12.8774071,78.2031740"
+=======
+    <a
+        class="map-button"
+        href="https://www.google.com/maps/dir/?api=1&destination=12.876553,78.199321"
+>>>>>>> 42183aa (Update Rajappa Wood Works website)
         target="_blank"
         rel="noopener noreferrer">
 
@@ -710,6 +855,7 @@
 
 </section>
 
+<<<<<<< HEAD
 
 <!-- ================================================= -->
 <!-- CONTACT -->
@@ -722,12 +868,22 @@
     <h2>
         📞 Contact Rajappa Wood Works
     </h2>
+=======
+<section class="contact" id="contact">
+
+    <h2>📞 9731002875</h2>
+
+    <p>
+        Contact us for window frames, door frames and custom woodwork.
+    </p>
+>>>>>>> 42183aa (Update Rajappa Wood Works website)
 
     <p>
         Contact us for window frames, door frames,
         plywood works and custom wood works.
     </p>
 
+<<<<<<< HEAD
 
     <h3>
         📞 9731002875
@@ -771,6 +927,8 @@
 
     <form onsubmit="submitForm(event)">
 
+=======
+>>>>>>> 42183aa (Update Rajappa Wood Works website)
         <input
             type="text"
             id="name"
@@ -778,7 +936,6 @@
             required>
 
         <br>
-
 
         <input
             type="tel"
@@ -788,7 +945,6 @@
 
         <br>
 
-
         <input
             type="email"
             id="email"
@@ -796,7 +952,6 @@
             required>
 
         <br>
-
 
         <textarea
             id="message"
@@ -818,17 +973,19 @@
 
 </section>
 
+<<<<<<< HEAD
 
 <!-- ================================================= -->
 <!-- FOOTER -->
 <!-- ================================================= -->
 
+=======
+>>>>>>> 42183aa (Update Rajappa Wood Works website)
 <footer>
 
-    <h3>
-        Rajappa Wood Works
-    </h3>
+    <h3>Rajappa Wood Works</h3>
 
+<<<<<<< HEAD
     <p>
         Window Frames | Door Frames | Plywood Works | Custom Wood Works
     </p>
@@ -844,14 +1001,20 @@
     <p>
         📞 7349640166
     </p>
+=======
+    <p>Windows Frames | Door Frames | Wood Work</p>
 
-    <p>
-        © 2026 Rajappa Wood Works
-    </p>
+    <p>📍 Kamasamudram, Karnataka, India</p>
+>>>>>>> 42183aa (Update Rajappa Wood Works website)
+
+    <p>📞 9731002875</p>
+
+    <p>© 2026 Rajappa Wood Works</p>
 
 </footer>
 
 
+<<<<<<< HEAD
 <!-- ================================================= -->
 <!-- EXPLORE OUR WORK POPUP -->
 <!-- ================================================= -->
@@ -1008,6 +1171,9 @@
 <!-- ================================================= -->
 <!-- WINDOW FRAMES POPUP -->
 <!-- ================================================= -->
+=======
+<!-- WINDOW FRAMES POPUP -->
+>>>>>>> 42183aa (Update Rajappa Wood Works website)
 
 <div
     class="modal"
@@ -1026,6 +1192,7 @@
 
         </span>
 
+<<<<<<< HEAD
 
         <h2>
             🪟 Window Frames
@@ -1042,23 +1209,42 @@
                 src="window-explore.webp"
                 alt="Wooden Window Frames">
 
+=======
+        <h2>🪟 Window Frames</h2>
+
+        <p>
+            Customized wooden window frames and available designs
+        </p>
+
+        <div class="modal-images">
+
+            <!-- FIRST IMAGE -->
+>>>>>>> 42183aa (Update Rajappa Wood Works website)
             <img
                 src="shopping-2.webp"
                 alt="Customized Wooden Window Frames">
 
+<<<<<<< HEAD
+=======
+            <!-- SECOND IMAGE -->
+>>>>>>> 42183aa (Update Rajappa Wood Works website)
             <img
                 src="Frames-Price-List.webp"
                 alt="Window Frames Price List">
 
         </div>
 
+<<<<<<< HEAD
 
         <!-- CALL -->
 
+=======
+>>>>>>> 42183aa (Update Rajappa Wood Works website)
         <a
             class="call-button"
             href="tel:9731002875">
 
+<<<<<<< HEAD
             📞 Call - 9731002875
 
         </a>
@@ -1086,6 +1272,9 @@
             rel="noopener noreferrer">
 
             💬 WhatsApp - 7349640166
+=======
+            📞 Call Now - 9731002875
+>>>>>>> 42183aa (Update Rajappa Wood Works website)
 
         </a>
 
@@ -1093,6 +1282,7 @@
 
 </div>
 
+<<<<<<< HEAD
 
 <!-- ================================================= -->
 <!-- DOOR FRAMES POPUP -->
@@ -1272,6 +1462,12 @@
 
 
 /* ================= EXPLORE OUR WORK ================= */
+=======
+
+<script>
+
+function showMessage() {
+>>>>>>> 42183aa (Update Rajappa Wood Works website)
 
 function openExploreWorks() {
 
@@ -1283,8 +1479,12 @@ function openExploreWorks() {
 
 }
 
+<<<<<<< HEAD
 
 function closeExploreWorks(event) {
+=======
+function order(product) {
+>>>>>>> 42183aa (Update Rajappa Wood Works website)
 
     if (
         !event ||
@@ -1302,6 +1502,40 @@ function closeExploreWorks(event) {
 
 }
 
+function openWindowFrames() {
+
+    document.getElementById("windowModal").style.display = "block";
+
+    document.body.style.overflow = "hidden";
+
+}
+
+function closeWindowFrames(event) {
+
+    if (
+        !event ||
+        event.target === document.getElementById("windowModal")
+    ) {
+
+        document.getElementById("windowModal").style.display = "none";
+
+        document.body.style.overflow = "auto";
+
+    }
+
+}
+
+document.addEventListener("keydown", function(event) {
+
+    if (event.key === "Escape") {
+
+        document.getElementById("windowModal").style.display = "none";
+
+        document.body.style.overflow = "auto";
+
+    }
+
+});
 
 /* ================= WINDOW FRAMES ================= */
 
@@ -1459,7 +1693,6 @@ function submitForm(event) {
 }
 
 </script>
-
 
 </body>
 
