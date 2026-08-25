@@ -1,0 +1,1699 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Rajappa Wood Works</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f5f0e6;
+            color: #333;
+        }
+
+<<<<<<< HEAD
+        /* ================= HEADER ================= */
+
+=======
+>>>>>>> 42183aa (Update Rajappa Wood Works website)
+        header {
+            background-color: #5a3219;
+            color: white;
+            text-align: center;
+            padding: 25px;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 38px;
+        }
+
+        header p {
+            font-size: 18px;
+            margin-bottom: 0;
+        }
+
+<<<<<<< HEAD
+        /* ================= NAVIGATION ================= */
+
+=======
+>>>>>>> 42183aa (Update Rajappa Wood Works website)
+        nav {
+            background-color: #2f1a0d;
+            text-align: center;
+            padding: 15px;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 15px;
+            font-size: 18px;
+        }
+
+        nav a:hover {
+            color: #ffd27f;
+        }
+
+<<<<<<< HEAD
+        /* ================= HOME ================= */
+
+=======
+>>>>>>> 42183aa (Update Rajappa Wood Works website)
+        .home {
+            text-align: center;
+            padding: 70px 20px;
+            background-color: #d9b382;
+        }
+
+        .home h2 {
+            font-size: 42px;
+            color: #3b1f0e;
+        }
+
+        .home p {
+            font-size: 20px;
+            line-height: 1.6;
+        }
+
+<<<<<<< HEAD
+        /* ================= BUTTON ================= */
+
+=======
+>>>>>>> 42183aa (Update Rajappa Wood Works website)
+        .btn {
+            background-color: #5a3219;
+            color: white;
+            padding: 12px 25px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: 0.3s;
+        }
+
+        .btn:hover {
+            background-color: #2f1a0d;
+            transform: scale(1.03);
+        }
+
+<<<<<<< HEAD
+        /* ================= SECTIONS ================= */
+
+=======
+>>>>>>> 42183aa (Update Rajappa Wood Works website)
+        section {
+            padding: 50px 20px;
+            text-align: center;
+        }
+
+        section h2 {
+            color: #5a3219;
+            font-size: 32px;
+        }
+
+<<<<<<< HEAD
+        /* ================= PRODUCTS ================= */
+
+=======
+>>>>>>> 42183aa (Update Rajappa Wood Works website)
+        .products {
+            display: flex;
+            justify-content: center;
+            gap: 25px;
+            flex-wrap: wrap;
+        }
+
+        .card {
+            background-color: white;
+            width: 270px;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px gray;
+            transition: 0.3s;
+        }
+
+        .card:hover {
+            transform: scale(1.03);
+        }
+
+        .card img {
+            width: 100%;
+            height: 170px;
+            object-fit: cover;
+            border-radius: 8px;
+        }
+
+        .card h3 {
+            color: #5a3219;
+            font-size: 22px;
+        }
+
+        .card p {
+            line-height: 1.5;
+            min-height: 70px;
+        }
+
+<<<<<<< HEAD
+        /* ================= ABOUT ================= */
+
+=======
+>>>>>>> 42183aa (Update Rajappa Wood Works website)
+        .about {
+            background-color: #ead8bf;
+        }
+
+        .about p {
+            max-width: 800px;
+            margin: auto;
+            font-size: 18px;
+            line-height: 1.7;
+        }
+
+<<<<<<< HEAD
+        /* ================= LOCATION ================= */
+
+=======
+>>>>>>> 42183aa (Update Rajappa Wood Works website)
+        .location {
+            background-color: #d9b382;
+        }
+
+        .location p {
+            font-size: 18px;
+        }
+
+        .map-container {
+            max-width: 1000px;
+            margin: 25px auto;
+        }
+
+        .map-container iframe {
+            width: 100%;
+            height: 400px;
+            border: 0;
+            border-radius: 10px;
+        }
+
+        .map-button {
+            display: inline-block;
+            margin-top: 15px;
+            background-color: #5a3219;
+            color: white;
+            padding: 14px 25px;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+<<<<<<< HEAD
+        .map-button:hover {
+            background-color: #2f1a0d;
+        }
+
+        /* ================= CONTACT ================= */
+
+=======
+>>>>>>> 42183aa (Update Rajappa Wood Works website)
+        .contact {
+            background-color: white;
+        }
+
+        input,
+        textarea {
+            width: 80%;
+            max-width: 600px;
+            padding: 12px;
+            margin: 8px;
+            border: 1px solid gray;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+
+        textarea {
+            resize: vertical;
+            min-height: 120px;
+        }
+
+<<<<<<< HEAD
+        /* ================= FOOTER ================= */
+
+=======
+>>>>>>> 42183aa (Update Rajappa Wood Works website)
+        footer {
+            background-color: #2f1a0d;
+            color: white;
+            text-align: center;
+            padding: 25px;
+        }
+
+<<<<<<< HEAD
+        /* ================= POPUP ================= */
+=======
+        /* WINDOW POPUP */
+>>>>>>> 42183aa (Update Rajappa Wood Works website)
+
+        .modal {
+            display: none;
+            position: fixed;
+            z-index: 1000;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            overflow-y: auto;
+<<<<<<< HEAD
+            background-color: rgba(0, 0, 0, 0.85);
+=======
+            background-color: rgba(0, 0, 0, 0.8);
+>>>>>>> 42183aa (Update Rajappa Wood Works website)
+            padding: 30px 15px;
+        }
+
+        .modal-content {
+            background-color: white;
+            margin: auto;
+            padding: 25px;
+            border-radius: 12px;
+<<<<<<< HEAD
+            max-width: 1100px;
+=======
+            max-width: 1000px;
+>>>>>>> 42183aa (Update Rajappa Wood Works website)
+            text-align: center;
+            position: relative;
+        }
+
+        .modal-content h2 {
+            color: #5a3219;
+            margin-top: 5px;
+        }
+
+<<<<<<< HEAD
+        /* ================= POPUP IMAGES ================= */
+
+=======
+>>>>>>> 42183aa (Update Rajappa Wood Works website)
+        .modal-images {
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            gap: 25px;
+            flex-wrap: wrap;
+            margin-top: 20px;
+        }
+
+        .modal-images img {
+            width: 45%;
+<<<<<<< HEAD
+            max-width: 450px;
+=======
+            max-width: 400px;
+>>>>>>> 42183aa (Update Rajappa Wood Works website)
+            max-height: 500px;
+            object-fit: contain;
+            border-radius: 8px;
+            border: 4px solid #5a3219;
+            background-color: #f5f0e6;
+        }
+
+<<<<<<< HEAD
+        /* ================= EXPLORE GALLERY ================= */
+
+        .explore-gallery {
+            display: flex;
+            justify-content: center;
+            gap: 25px;
+            flex-wrap: wrap;
+            margin-top: 25px;
+        }
+
+        .explore-item {
+            width: 300px;
+            background-color: #f5f0e6;
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 0 2px 8px gray;
+        }
+
+        .explore-item h3 {
+            color: #5a3219;
+            margin-top: 10px;
+        }
+
+        .explore-item img {
+            width: 100%;
+            height: 230px;
+            object-fit: cover;
+            border-radius: 8px;
+            border: 3px solid #5a3219;
+        }
+
+        /* ================= CLOSE BUTTON ================= */
+
+=======
+>>>>>>> 42183aa (Update Rajappa Wood Works website)
+        .close {
+            position: absolute;
+            top: 8px;
+            right: 18px;
+            font-size: 35px;
+            font-weight: bold;
+            color: #333;
+            cursor: pointer;
+        }
+
+        .close:hover {
+            color: red;
+        }
+
+<<<<<<< HEAD
+        /* ================= CALL BUTTON ================= */
+
+=======
+>>>>>>> 42183aa (Update Rajappa Wood Works website)
+        .call-button {
+            display: inline-block;
+            margin-top: 20px;
+            background-color: #198754;
+            color: white;
+            text-decoration: none;
+            padding: 13px 25px;
+            border-radius: 6px;
+            font-size: 17px;
+<<<<<<< HEAD
+            transition: 0.3s;
+        }
+
+        .call-button:hover {
+            background-color: #146c43;
+            transform: scale(1.03);
+        }
+
+        /* ================= WHATSAPP BUTTON ================= */
+
+        .whatsapp-button {
+            display: inline-block;
+            margin-top: 20px;
+            margin-left: 8px;
+            background-color: #25D366;
+            color: white;
+            text-decoration: none;
+            padding: 13px 25px;
+            border-radius: 6px;
+            font-size: 17px;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        .whatsapp-button:hover {
+            background-color: #128C7E;
+            transform: scale(1.03);
+        }
+
+        /* ================= CONTACT WHATSAPP ================= */
+
+        .contact-whatsapp {
+            display: inline-block;
+            margin: 10px;
+            background-color: #25D366;
+            color: white;
+            text-decoration: none;
+            padding: 13px 22px;
+            border-radius: 6px;
+            font-size: 17px;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        .contact-whatsapp:hover {
+            background-color: #128C7E;
+            transform: scale(1.03);
+        }
+
+        /* ================= MOBILE ================= */
+=======
+        }
+>>>>>>> 42183aa (Update Rajappa Wood Works website)
+
+        @media (max-width: 600px) {
+
+            header h1 {
+                font-size: 28px;
+            }
+
+            nav {
+                position: relative;
+            }
+
+            nav a {
+                display: block;
+                margin: 10px;
+            }
+
+            .home h2 {
+                font-size: 30px;
+            }
+
+            .card {
+                width: 95%;
+                max-width: 350px;
+            }
+
+            input,
+            textarea {
+                width: 95%;
+            }
+<<<<<<< HEAD
+
+            .modal-content {
+                padding: 20px 10px;
+            }
+
+            .modal-images img {
+                width: 100%;
+                max-width: 100%;
+            }
+
+            .explore-item {
+                width: 100%;
+            }
+
+            .explore-item img {
+                height: auto;
+                max-height: 400px;
+            }
+
+            .call-button,
+            .whatsapp-button {
+                display: block;
+                margin: 12px auto;
+                max-width: 300px;
+            }
+
+        }
+=======
+>>>>>>> 42183aa (Update Rajappa Wood Works website)
+
+            .modal-content {
+                padding: 20px 10px;
+            }
+
+            .modal-images img {
+                width: 100%;
+                max-width: 100%;
+            }
+        }
+    </style>
+
+<<<<<<< HEAD
+</head>
+
+<body>
+
+
+<!-- ================================================= -->
+<!-- HEADER -->
+<!-- ================================================= -->
+
+=======
+<body>
+
+>>>>>>> 42183aa (Update Rajappa Wood Works website)
+<header>
+    <h1>🪵 Rajappa Wood Works</h1>
+<<<<<<< HEAD
+
+    <p>
+        Window Frames | Door Frames | Plywood Works | Custom Wood Works
+    </p>
+
+</header>
+
+
+<!-- ================================================= -->
+<!-- NAVIGATION -->
+<!-- ================================================= -->
+
+=======
+    <p>Windows Frames | Door Frames | Wood Work</p>
+</header>
+
+>>>>>>> 42183aa (Update Rajappa Wood Works website)
+<nav>
+    <a href="#home">Home</a>
+    <a href="#products">Our Work</a>
+    <a href="#about">About</a>
+    <a href="#location">Location</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<<<<<<< HEAD
+
+<!-- ================================================= -->
+<!-- HOME -->
+<!-- ================================================= -->
+
+<section
+    class="home"
+    id="home">
+=======
+<section class="home" id="home">
+>>>>>>> 42183aa (Update Rajappa Wood Works website)
+
+    <h2>Welcome to Rajappa Wood Works</h2>
+
+    <p>
+<<<<<<< HEAD
+        Quality Wooden Window Frames and Professional Wood Works
+=======
+        Quality Wooden Window Frames and Professional Wood Work
+>>>>>>> 42183aa (Update Rajappa Wood Works website)
+    </p>
+
+    <p>
+        We provide strong, durable and beautiful wood works
+        for homes, offices and buildings.
+    </p>
+
+    <br>
+
+    <button
+        class="btn"
+        onclick="openExploreWorks()">
+
+        Explore Our Work
+
+    </button>
+
+</section>
+
+<<<<<<< HEAD
+
+<!-- ================================================= -->
+<!-- OUR WORK -->
+<!-- ================================================= -->
+
+=======
+>>>>>>> 42183aa (Update Rajappa Wood Works website)
+<section id="products">
+
+    <h2>
+        Our Wood Works
+    </h2>
+
+    <div class="products">
+
+        <!-- WINDOW FRAMES -->
+
+        <div class="card">
+
+            <!-- YOUR IMAGE -->
+            <img
+                src="shopping-2.webp"
+                alt="Wooden Window Frames">
+
+            <h3>Window Frames</h3>
+
+            <p>
+                Strong and durable wooden window frames
+                made according to customer requirements.
+            </p>
+
+            <button
+                class="btn"
+                onclick="openWindowFrames()">
+
+                Enquire
+
+            </button>
+
+        </div>
+
+        <!-- DOOR FRAMES -->
+
+        <div class="card">
+
+            <img
+                src="door-frame-1.webp"
+                alt="Door Frames">
+
+            <h3>Door Frames</h3>
+
+            <p>
+                High quality door frames with strong
+                construction and excellent finishing.
+            </p>
+
+            <button
+                class="btn"
+                onclick="openDoorFrames()">
+
+                Enquire
+
+            </button>
+
+        </div>
+
+<<<<<<< HEAD
+
+        <!-- PLYWOOD WORKS -->
+=======
+        <!-- WOOD WORK -->
+>>>>>>> 42183aa (Update Rajappa Wood Works website)
+
+        <div class="card">
+
+            <img
+                src="windows1.webp"
+                alt="Plywood Works">
+
+<<<<<<< HEAD
+            <h3>
+                Plywood Works
+            </h3>
+=======
+            <h3>Wood Work</h3>
+>>>>>>> 42183aa (Update Rajappa Wood Works website)
+
+            <p>
+                Professional plywood work for houses,
+                offices and other buildings.
+            </p>
+
+            <button
+                class="btn"
+                onclick="openPlywoodWorks()">
+
+                Enquire
+
+            </button>
+
+        </div>
+
+<<<<<<< HEAD
+=======
+        <!-- CUSTOM WOOD WORK -->
+
+        <div class="card">
+
+            <img
+                src="customwood.jpg"
+                alt="Custom Wood Work">
+
+            <h3>Custom Wood Work</h3>
+
+            <p>
+                Custom wooden designs and work according
+                to your requirements.
+            </p>
+
+            <button
+                class="btn"
+                onclick="order('Custom Wood Work')">
+
+                Enquire
+
+            </button>
+
+        </div>
+>>>>>>> 42183aa (Update Rajappa Wood Works website)
+
+    </div>
+
+</section>
+
+<<<<<<< HEAD
+
+<!-- ================================================= -->
+<!-- ABOUT -->
+<!-- ================================================= -->
+
+<section
+    class="about"
+    id="about">
+=======
+<section class="about" id="about">
+>>>>>>> 42183aa (Update Rajappa Wood Works website)
+
+    <h2>About Rajappa Wood Works</h2>
+
+    <p>
+<<<<<<< HEAD
+        Rajappa Wood Works is a professional woodwork
+        business specializing in wooden window frames,
+        door frames and plywood works.
+=======
+        Rajappa Wood Works is a woodwork business
+        specializing in wooden window frames,
+        door frames and custom woodwork.
+>>>>>>> 42183aa (Update Rajappa Wood Works website)
+    </p>
+
+    <br>
+
+    <p>
+        We focus on quality materials, strong
+        construction and good finishing to provide
+        durable woodwork for our customers.
+<<<<<<< HEAD
+    </p>
+
+    <br>
+
+    <p>
+        We provide customized woodwork according to
+        customer requirements for homes, offices
+        and other buildings.
+=======
+>>>>>>> 42183aa (Update Rajappa Wood Works website)
+    </p>
+
+</section>
+
+<<<<<<< HEAD
+
+<!-- ================================================= -->
+<!-- LOCATION -->
+<!-- ================================================= -->
+
+<section
+    class="location"
+    id="location">
+=======
+<section class="location" id="location">
+>>>>>>> 42183aa (Update Rajappa Wood Works website)
+
+    <h2>
+        📍 Our Location
+    </h2>
+
+    <p>
+        Visit Rajappa Wood Works
+    </p>
+
+    <p>
+        📌 Rajappa Wood Works
+    </p>
+
+    <p>
+<<<<<<< HEAD
+        📍 12.8774071, 78.2031740
+    </p>
+
+
+    <div class="map-container">
+
+        <iframe
+            src="https://www.google.com/maps?q=12.8774071,78.2031740&output=embed"
+=======
+        📍 Kamasamudram - Bangarpet Main Road,
+        Karnataka - 563129
+    </p>
+
+    <div class="map-container">
+
+        <iframe
+            src="https://www.google.com/maps?q=12.876553,78.199321&output=embed"
+>>>>>>> 42183aa (Update Rajappa Wood Works website)
+            allowfullscreen
+            loading="lazy">
+        </iframe>
+
+    </div>
+
+<<<<<<< HEAD
+
+    <a
+        class="map-button"
+        href="https://www.google.com/maps/dir/?api=1&destination=12.8774071,78.2031740"
+=======
+    <a
+        class="map-button"
+        href="https://www.google.com/maps/dir/?api=1&destination=12.876553,78.199321"
+>>>>>>> 42183aa (Update Rajappa Wood Works website)
+        target="_blank"
+        rel="noopener noreferrer">
+
+        🧭 Get Directions to Rajappa Wood Works
+
+    </a>
+
+</section>
+
+<<<<<<< HEAD
+
+<!-- ================================================= -->
+<!-- CONTACT -->
+<!-- ================================================= -->
+
+<section
+    class="contact"
+    id="contact">
+
+    <h2>
+        📞 Contact Rajappa Wood Works
+    </h2>
+=======
+<section class="contact" id="contact">
+
+    <h2>📞 9731002875</h2>
+
+    <p>
+        Contact us for window frames, door frames and custom woodwork.
+    </p>
+>>>>>>> 42183aa (Update Rajappa Wood Works website)
+
+    <p>
+        Contact us for window frames, door frames,
+        plywood works and custom wood works.
+    </p>
+
+<<<<<<< HEAD
+
+    <h3>
+        📞 9731002875
+    </h3>
+
+    <h3>
+        📞 7349640166
+    </h3>
+
+
+    <!-- WHATSAPP 1 -->
+
+    <a
+        class="contact-whatsapp"
+        href="https://wa.me/919731002875?text=Hello%20Rajappa%20Wood%20Works,%20I%20am%20interested%20in%20your%20wood%20work%20services."
+        target="_blank"
+        rel="noopener noreferrer">
+
+        💬 WhatsApp - 9731002875
+
+    </a>
+
+
+    <!-- WHATSAPP 2 -->
+
+    <a
+        class="contact-whatsapp"
+        href="https://wa.me/917349640166?text=Hello%20Rajappa%20Wood%20Works,%20I%20am%20interested%20in%20your%20wood%20work%20services."
+        target="_blank"
+        rel="noopener noreferrer">
+
+        💬 WhatsApp - 7349640166
+
+    </a>
+
+
+    <br><br>
+
+
+    <!-- CONTACT FORM -->
+
+    <form onsubmit="submitForm(event)">
+
+=======
+>>>>>>> 42183aa (Update Rajappa Wood Works website)
+        <input
+            type="text"
+            id="name"
+            placeholder="Your Name"
+            required>
+
+        <br>
+
+        <input
+            type="tel"
+            id="phone"
+            placeholder="Your Phone Number"
+            required>
+
+        <br>
+
+        <input
+            type="email"
+            id="email"
+            placeholder="Your Email"
+            required>
+
+        <br>
+
+        <textarea
+            id="message"
+            placeholder="Enter Your Requirement"
+            required></textarea>
+
+        <br>
+
+
+        <button
+            class="btn"
+            type="submit">
+
+            Send Enquiry
+
+        </button>
+
+    </form>
+
+</section>
+
+<<<<<<< HEAD
+
+<!-- ================================================= -->
+<!-- FOOTER -->
+<!-- ================================================= -->
+
+=======
+>>>>>>> 42183aa (Update Rajappa Wood Works website)
+<footer>
+
+    <h3>Rajappa Wood Works</h3>
+
+<<<<<<< HEAD
+    <p>
+        Window Frames | Door Frames | Plywood Works | Custom Wood Works
+    </p>
+
+    <p>
+        📍 Rajappa Wood Works, Karnataka, India
+    </p>
+
+    <p>
+        📞 9731002875
+    </p>
+
+    <p>
+        📞 7349640166
+    </p>
+=======
+    <p>Windows Frames | Door Frames | Wood Work</p>
+
+    <p>📍 Kamasamudram, Karnataka, India</p>
+>>>>>>> 42183aa (Update Rajappa Wood Works website)
+
+    <p>📞 9731002875</p>
+
+    <p>© 2026 Rajappa Wood Works</p>
+
+</footer>
+
+
+<<<<<<< HEAD
+<!-- ================================================= -->
+<!-- EXPLORE OUR WORK POPUP -->
+<!-- ================================================= -->
+
+<div
+    class="modal"
+    id="exploreModal"
+    onclick="closeExploreWorks(event)">
+
+    <div
+        class="modal-content"
+        onclick="event.stopPropagation()">
+
+        <span
+            class="close"
+            onclick="closeExploreWorks()">
+
+            &times;
+
+        </span>
+
+
+        <h2>
+            🪵 Explore Our Work
+        </h2>
+
+        <p>
+            Take a look at some of our window frames,
+            door frames and woodwork.
+        </p>
+
+
+        <div class="explore-gallery">
+
+
+            <!-- WINDOW IMAGE -->
+
+            <div class="explore-item">
+
+                <img
+                    src="window-explore.webp"
+                    alt="Wooden Window Frames">
+
+                <h3>
+                    🪟 Window Frames
+                </h3>
+
+            </div>
+
+
+            <!-- DOOR FRAME IMAGE -->
+
+            <div class="explore-item">
+
+                <img
+                    src="door-frame-1.webp"
+                    alt="Door Frames">
+
+                <h3>
+                    🚪 Door Frames
+                </h3>
+
+            </div>
+
+
+            <!-- PLYWOOD IMAGE -->
+
+            <div class="explore-item">
+
+                <img
+                    src="windows1.webp"
+                    alt="Plywood Works">
+
+                <h3>
+                    🪵 Plywood Works
+                </h3>
+
+            </div>
+
+
+            <!-- SECOND PLYWOOD IMAGE -->
+
+            <div class="explore-item">
+
+                <img
+                    src="windows2.jpg"
+                    alt="Plywood Work">
+
+                <h3>
+                    Plywood Designs
+                </h3>
+
+            </div>
+
+
+            <!-- SECOND DOOR IMAGE -->
+
+            <div class="explore-item">
+
+                <img
+                    src="door-frame-2.webp"
+                    alt="Door Frame Work">
+
+                <h3>
+                    Door Frame Designs
+                </h3>
+
+            </div>
+
+        </div>
+
+
+        <!-- CALL BUTTON -->
+
+        <a
+            class="call-button"
+            href="tel:9731002875">
+
+            📞 Call - 9731002875
+
+        </a>
+
+
+        <!-- WHATSAPP 1 -->
+
+        <a
+            class="whatsapp-button"
+            href="https://wa.me/919731002875?text=Hello%20Rajappa%20Wood%20Works,%20I%20am%20interested%20in%20your%20wood%20work%20services."
+            target="_blank"
+            rel="noopener noreferrer">
+
+            💬 WhatsApp - 9731002875
+
+        </a>
+
+
+        <!-- WHATSAPP 2 -->
+
+        <a
+            class="whatsapp-button"
+            href="https://wa.me/917349640166?text=Hello%20Rajappa%20Wood%20Works,%20I%20am%20interested%20in%20your%20wood%20work%20services."
+            target="_blank"
+            rel="noopener noreferrer">
+
+            💬 WhatsApp - 7349640166
+
+        </a>
+
+    </div>
+
+</div>
+
+
+<!-- ================================================= -->
+<!-- WINDOW FRAMES POPUP -->
+<!-- ================================================= -->
+=======
+<!-- WINDOW FRAMES POPUP -->
+>>>>>>> 42183aa (Update Rajappa Wood Works website)
+
+<div
+    class="modal"
+    id="windowModal"
+    onclick="closeWindowFrames(event)">
+
+    <div
+        class="modal-content"
+        onclick="event.stopPropagation()">
+
+        <span
+            class="close"
+            onclick="closeWindowFrames()">
+
+            &times;
+
+        </span>
+
+<<<<<<< HEAD
+
+        <h2>
+            🪟 Window Frames
+        </h2>
+
+        <p>
+            Customized wooden window frames and available designs.
+        </p>
+
+
+        <div class="modal-images">
+
+            <img
+                src="window-explore.webp"
+                alt="Wooden Window Frames">
+
+=======
+        <h2>🪟 Window Frames</h2>
+
+        <p>
+            Customized wooden window frames and available designs
+        </p>
+
+        <div class="modal-images">
+
+            <!-- FIRST IMAGE -->
+>>>>>>> 42183aa (Update Rajappa Wood Works website)
+            <img
+                src="shopping-2.webp"
+                alt="Customized Wooden Window Frames">
+
+<<<<<<< HEAD
+=======
+            <!-- SECOND IMAGE -->
+>>>>>>> 42183aa (Update Rajappa Wood Works website)
+            <img
+                src="Frames-Price-List.webp"
+                alt="Window Frames Price List">
+
+        </div>
+
+<<<<<<< HEAD
+
+        <!-- CALL -->
+
+=======
+>>>>>>> 42183aa (Update Rajappa Wood Works website)
+        <a
+            class="call-button"
+            href="tel:9731002875">
+
+<<<<<<< HEAD
+            📞 Call - 9731002875
+
+        </a>
+
+
+        <!-- WHATSAPP 1 -->
+
+        <a
+            class="whatsapp-button"
+            href="https://wa.me/919731002875?text=Hello%20Rajappa%20Wood%20Works,%20I%20want%20to%20know%20about%20Window%20Frames."
+            target="_blank"
+            rel="noopener noreferrer">
+
+            💬 WhatsApp - 9731002875
+
+        </a>
+
+
+        <!-- WHATSAPP 2 -->
+
+        <a
+            class="whatsapp-button"
+            href="https://wa.me/917349640166?text=Hello%20Rajappa%20Wood%20Works,%20I%20want%20to%20know%20about%20Window%20Frames."
+            target="_blank"
+            rel="noopener noreferrer">
+
+            💬 WhatsApp - 7349640166
+=======
+            📞 Call Now - 9731002875
+>>>>>>> 42183aa (Update Rajappa Wood Works website)
+
+        </a>
+
+    </div>
+
+</div>
+
+<<<<<<< HEAD
+
+<!-- ================================================= -->
+<!-- DOOR FRAMES POPUP -->
+<!-- ================================================= -->
+
+<div
+    class="modal"
+    id="doorModal"
+    onclick="closeDoorFrames(event)">
+
+    <div
+        class="modal-content"
+        onclick="event.stopPropagation()">
+
+        <span
+            class="close"
+            onclick="closeDoorFrames()">
+
+            &times;
+
+        </span>
+
+
+        <h2>
+            🚪 Door Frames
+        </h2>
+
+        <p>
+            Quality door frames and wooden frame designs.
+        </p>
+
+
+        <div class="modal-images">
+
+            <img
+                src="door-frame-1.webp"
+                alt="Door Frame Work">
+
+            <img
+                src="door-frame-2.webp"
+                alt="Door Frame Designs">
+
+        </div>
+
+
+        <!-- CALL -->
+
+        <a
+            class="call-button"
+            href="tel:9731002875">
+
+            📞 Call - 9731002875
+
+        </a>
+
+
+        <!-- WHATSAPP 1 -->
+
+        <a
+            class="whatsapp-button"
+            href="https://wa.me/919731002875?text=Hello%20Rajappa%20Wood%20Works,%20I%20want%20to%20know%20about%20Door%20Frames."
+            target="_blank"
+            rel="noopener noreferrer">
+
+            💬 WhatsApp - 9731002875
+
+        </a>
+
+
+        <!-- WHATSAPP 2 -->
+
+        <a
+            class="whatsapp-button"
+            href="https://wa.me/917349640166?text=Hello%20Rajappa%20Wood%20Works,%20I%20want%20to%20know%20about%20Door%20Frames."
+            target="_blank"
+            rel="noopener noreferrer">
+
+            💬 WhatsApp - 7349640166
+
+        </a>
+
+    </div>
+
+</div>
+
+
+<!-- ================================================= -->
+<!-- PLYWOOD WORKS POPUP -->
+<!-- ================================================= -->
+
+<div
+    class="modal"
+    id="plywoodModal"
+    onclick="closePlywoodWorks(event)">
+
+    <div
+        class="modal-content"
+        onclick="event.stopPropagation()">
+
+        <span
+            class="close"
+            onclick="closePlywoodWorks()">
+
+            &times;
+
+        </span>
+
+
+        <h2>
+            🪵 Plywood Works
+        </h2>
+
+        <p>
+            Quality plywood works and wooden designs.
+        </p>
+
+
+        <div class="modal-images">
+
+            <img
+                src="ply2.webp"
+                alt="Plywood Works">
+
+            <img
+                src="windows2.jpg"
+                alt="Plywood Work">
+
+        </div>
+
+
+        <!-- CALL -->
+
+        <a
+            class="call-button"
+            href="tel:9731002875">
+
+            📞 Call - 9731002875
+
+        </a>
+
+
+        <!-- WHATSAPP 1 -->
+
+        <a
+            class="whatsapp-button"
+            href="https://wa.me/919731002875?text=Hello%20Rajappa%20Wood%20Works,%20I%20want%20to%20know%20about%20Plywood%20Works."
+            target="_blank"
+            rel="noopener noreferrer">
+
+            💬 WhatsApp - 9731002875
+
+        </a>
+
+
+        <!-- WHATSAPP 2 -->
+
+        <a
+            class="whatsapp-button"
+            href="https://wa.me/917349640166?text=Hello%20Rajappa%20Wood%20Works,%20I%20want%20to%20know%20about%20Plywood%20Works."
+            target="_blank"
+            rel="noopener noreferrer">
+
+            💬 WhatsApp - 7349640166
+
+        </a>
+
+    </div>
+
+</div>
+
+
+<!-- ================================================= -->
+<!-- JAVASCRIPT -->
+<!-- ================================================= -->
+
+<script>
+
+
+/* ================= EXPLORE OUR WORK ================= */
+=======
+
+<script>
+
+function showMessage() {
+>>>>>>> 42183aa (Update Rajappa Wood Works website)
+
+function openExploreWorks() {
+
+    document
+        .getElementById("exploreModal")
+        .style.display = "block";
+
+    document.body.style.overflow = "hidden";
+
+}
+
+<<<<<<< HEAD
+
+function closeExploreWorks(event) {
+=======
+function order(product) {
+>>>>>>> 42183aa (Update Rajappa Wood Works website)
+
+    if (
+        !event ||
+        event.target ===
+        document.getElementById("exploreModal")
+    ) {
+
+        document
+            .getElementById("exploreModal")
+            .style.display = "none";
+
+        document.body.style.overflow = "auto";
+
+    }
+
+}
+
+function openWindowFrames() {
+
+    document.getElementById("windowModal").style.display = "block";
+
+    document.body.style.overflow = "hidden";
+
+}
+
+function closeWindowFrames(event) {
+
+    if (
+        !event ||
+        event.target === document.getElementById("windowModal")
+    ) {
+
+        document.getElementById("windowModal").style.display = "none";
+
+        document.body.style.overflow = "auto";
+
+    }
+
+}
+
+document.addEventListener("keydown", function(event) {
+
+    if (event.key === "Escape") {
+
+        document.getElementById("windowModal").style.display = "none";
+
+        document.body.style.overflow = "auto";
+
+    }
+
+});
+
+/* ================= WINDOW FRAMES ================= */
+
+function openWindowFrames() {
+
+    document
+        .getElementById("windowModal")
+        .style.display = "block";
+
+    document.body.style.overflow = "hidden";
+
+}
+
+
+function closeWindowFrames(event) {
+
+    if (
+        !event ||
+        event.target ===
+        document.getElementById("windowModal")
+    ) {
+
+        document
+            .getElementById("windowModal")
+            .style.display = "none";
+
+        document.body.style.overflow = "auto";
+
+    }
+
+}
+
+
+/* ================= DOOR FRAMES ================= */
+
+function openDoorFrames() {
+
+    document
+        .getElementById("doorModal")
+        .style.display = "block";
+
+    document.body.style.overflow = "hidden";
+
+}
+
+
+function closeDoorFrames(event) {
+
+    if (
+        !event ||
+        event.target ===
+        document.getElementById("doorModal")
+    ) {
+
+        document
+            .getElementById("doorModal")
+            .style.display = "none";
+
+        document.body.style.overflow = "auto";
+
+    }
+
+}
+
+
+/* ================= PLYWOOD WORKS ================= */
+
+function openPlywoodWorks() {
+
+    document
+        .getElementById("plywoodModal")
+        .style.display = "block";
+
+    document.body.style.overflow = "hidden";
+
+}
+
+
+function closePlywoodWorks(event) {
+
+    if (
+        !event ||
+        event.target ===
+        document.getElementById("plywoodModal")
+    ) {
+
+        document
+            .getElementById("plywoodModal")
+            .style.display = "none";
+
+        document.body.style.overflow = "auto";
+
+    }
+
+}
+
+
+/* ================= ESC KEY ================= */
+
+document.addEventListener(
+    "keydown",
+    function(event) {
+
+        if (event.key === "Escape") {
+
+            document
+                .getElementById("exploreModal")
+                .style.display = "none";
+
+            document
+                .getElementById("windowModal")
+                .style.display = "none";
+
+            document
+                .getElementById("doorModal")
+                .style.display = "none";
+
+            document
+                .getElementById("plywoodModal")
+                .style.display = "none";
+
+            document.body.style.overflow = "auto";
+
+        }
+
+    }
+);
+
+
+/* ================= CONTACT FORM ================= */
+
+function submitForm(event) {
+
+    event.preventDefault();
+
+    let name =
+        document.getElementById("name").value;
+
+    let phone =
+        document.getElementById("phone").value;
+
+    alert(
+        "Thank you " +
+        name +
+        "!\n\n" +
+        "Your enquiry has been received.\n\n" +
+        "Phone: " +
+        phone
+    );
+
+    document
+        .querySelector("form")
+        .reset();
+
+}
+
+</script>
+
+</body>
+
+</html>
