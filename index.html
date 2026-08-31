@@ -24,7 +24,7 @@
             color: #333;
         }
 
-        /* HEADER */
+        /* ================= HEADER ================= */
 
         header {
             background-color: #5a3219;
@@ -43,7 +43,7 @@
             margin-bottom: 0;
         }
 
-        /* NAVIGATION */
+        /* ================= NAVIGATION ================= */
 
         nav {
             background-color: #2f1a0d;
@@ -65,7 +65,7 @@
             color: #ffd27f;
         }
 
-        /* HOME */
+        /* ================= HOME ================= */
 
         .home {
             text-align: center;
@@ -83,7 +83,7 @@
             line-height: 1.6;
         }
 
-        /* BUTTON */
+        /* ================= BUTTON ================= */
 
         .btn {
             background-color: #5a3219;
@@ -101,7 +101,7 @@
             transform: scale(1.03);
         }
 
-        /* SECTIONS */
+        /* ================= SECTIONS ================= */
 
         section {
             padding: 50px 20px;
@@ -113,7 +113,7 @@
             font-size: 32px;
         }
 
-        /* PRODUCTS */
+        /* ================= PRODUCTS ================= */
 
         .products {
             display: flex;
@@ -152,7 +152,7 @@
             min-height: 70px;
         }
 
-        /* ABOUT */
+        /* ================= ABOUT ================= */
 
         .about {
             background-color: #ead8bf;
@@ -165,7 +165,7 @@
             line-height: 1.7;
         }
 
-        /* LOCATION */
+        /* ================= LOCATION ================= */
 
         .location {
             background-color: #d9b382;
@@ -201,7 +201,7 @@
             background-color: #2f1a0d;
         }
 
-        /* CONTACT */
+        /* ================= CONTACT ================= */
 
         .contact {
             background-color: white;
@@ -223,43 +223,7 @@
             min-height: 120px;
         }
 
-        /* WHATSAPP BUTTON */
-
-        .whatsapp-button {
-            display: inline-block;
-            margin: 10px;
-            background-color: #25D366;
-            color: white;
-            text-decoration: none;
-            padding: 13px 25px;
-            border-radius: 6px;
-            font-size: 17px;
-            transition: 0.3s;
-        }
-
-        .whatsapp-button:hover {
-            background-color: #128C7E;
-            transform: scale(1.03);
-        }
-
-        /* CALL BUTTON */
-
-        .call-button {
-            display: inline-block;
-            margin-top: 20px;
-            background-color: #198754;
-            color: white;
-            text-decoration: none;
-            padding: 13px 25px;
-            border-radius: 6px;
-            font-size: 17px;
-        }
-
-        .call-button:hover {
-            background-color: #146c43;
-        }
-
-        /* FOOTER */
+        /* ================= FOOTER ================= */
 
         footer {
             background-color: #2f1a0d;
@@ -268,16 +232,7 @@
             padding: 25px;
         }
 
-        footer a {
-            color: white;
-            text-decoration: none;
-        }
-
-        footer a:hover {
-            color: #25D366;
-        }
-
-        /* POPUP */
+        /* ================= POPUP ================= */
 
         .modal {
             display: none;
@@ -307,7 +262,7 @@
             margin-top: 5px;
         }
 
-        /* POPUP IMAGES */
+        /* ================= POPUP IMAGES ================= */
 
         .modal-images {
             display: flex;
@@ -328,7 +283,7 @@
             background-color: #f5f0e6;
         }
 
-        /* EXPLORE GALLERY */
+        /* ================= EXPLORE GALLERY ================= */
 
         .explore-gallery {
             display: flex;
@@ -359,7 +314,7 @@
             border: 3px solid #5a3219;
         }
 
-        /* CLOSE BUTTON */
+        /* ================= CLOSE BUTTON ================= */
 
         .close {
             position: absolute;
@@ -375,7 +330,67 @@
             color: red;
         }
 
-        /* MOBILE */
+        /* ================= CALL BUTTON ================= */
+
+        .call-button {
+            display: inline-block;
+            margin-top: 20px;
+            background-color: #198754;
+            color: white;
+            text-decoration: none;
+            padding: 13px 25px;
+            border-radius: 6px;
+            font-size: 17px;
+            transition: 0.3s;
+        }
+
+        .call-button:hover {
+            background-color: #146c43;
+            transform: scale(1.03);
+        }
+
+        /* ================= WHATSAPP BUTTON ================= */
+
+        .whatsapp-button {
+            display: inline-block;
+            margin-top: 20px;
+            margin-left: 8px;
+            background-color: #25D366;
+            color: white;
+            text-decoration: none;
+            padding: 13px 25px;
+            border-radius: 6px;
+            font-size: 17px;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        .whatsapp-button:hover {
+            background-color: #128C7E;
+            transform: scale(1.03);
+        }
+
+        /* ================= CONTACT WHATSAPP ================= */
+
+        .contact-whatsapp {
+            display: inline-block;
+            margin: 10px;
+            background-color: #25D366;
+            color: white;
+            text-decoration: none;
+            padding: 13px 22px;
+            border-radius: 6px;
+            font-size: 17px;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        .contact-whatsapp:hover {
+            background-color: #128C7E;
+            transform: scale(1.03);
+        }
+
+        /* ================= MOBILE ================= */
 
         @media (max-width: 600px) {
 
@@ -424,11 +439,13 @@
                 max-height: 400px;
             }
 
+            .call-button,
             .whatsapp-button {
                 display: block;
                 margin: 12px auto;
                 max-width: 300px;
             }
+
         }
 
     </style>
@@ -437,20 +454,25 @@
 
 <body>
 
+
+<!-- ================================================= -->
 <!-- HEADER -->
+<!-- ================================================= -->
 
 <header>
 
     <h1>🪵 Rajappa Wood Works</h1>
 
     <p>
-        Windows Frames | Door Frames | Plywood Works
+        Window Frames | Door Frames | Plywood Works | Custom Wood Works
     </p>
 
 </header>
 
 
+<!-- ================================================= -->
 <!-- NAVIGATION -->
+<!-- ================================================= -->
 
 <nav>
 
@@ -467,20 +489,24 @@
 </nav>
 
 
+<!-- ================================================= -->
 <!-- HOME -->
+<!-- ================================================= -->
 
-<section class="home" id="home">
+<section
+    class="home"
+    id="home">
 
     <h2>
         Welcome to Rajappa Wood Works
     </h2>
 
     <p>
-        Quality Wooden Window Frames and Professional Plywood Works
+        Quality Wooden Window Frames and Professional Wood Works
     </p>
 
     <p>
-        We provide strong, durable and beautiful plywood works
+        We provide strong, durable and beautiful wood works
         for homes, offices and buildings.
     </p>
 
@@ -497,7 +523,9 @@
 </section>
 
 
+<!-- ================================================= -->
 <!-- OUR WORK -->
+<!-- ================================================= -->
 
 <section id="products">
 
@@ -513,7 +541,7 @@
         <div class="card">
 
             <img
-                src="shopping-2.webp"
+                src="shopping-2.webp.webp"
                 alt="Wooden Window Frames">
 
             <h3>
@@ -541,7 +569,7 @@
         <div class="card">
 
             <img
-                src="door-frame-1.webp"
+                src="door1"
                 alt="Door Frames">
 
             <h3>
@@ -569,7 +597,7 @@
         <div class="card">
 
             <img
-                src="windows1.webp"
+                src="windows1"
                 alt="Plywood Works">
 
             <h3>
@@ -597,7 +625,9 @@
 </section>
 
 
+<!-- ================================================= -->
 <!-- ABOUT -->
+<!-- ================================================= -->
 
 <section
     class="about"
@@ -608,8 +638,8 @@
     </h2>
 
     <p>
-        Rajappa Wood Works is a wood work business
-        specializing in wooden window frames,
+        Rajappa Wood Works is a professional woodwork
+        business specializing in wooden window frames,
         door frames and plywood works.
     </p>
 
@@ -618,13 +648,23 @@
     <p>
         We focus on quality materials, strong
         construction and good finishing to provide
-        durable wood works for our customers.
+        durable woodwork for our customers.
+    </p>
+
+    <br>
+
+    <p>
+        We provide customized woodwork according to
+        customer requirements for homes, offices
+        and other buildings.
     </p>
 
 </section>
 
 
+<!-- ================================================= -->
 <!-- LOCATION -->
+<!-- ================================================= -->
 
 <section
     class="location"
@@ -671,82 +711,63 @@
 </section>
 
 
+<!-- ================================================= -->
 <!-- CONTACT -->
+<!-- ================================================= -->
 
 <section
     class="contact"
     id="contact">
 
     <h2>
-        📞 Contact Us
+        📞 Contact Rajappa Wood Works
     </h2>
 
     <p>
-        Contact us for window frames, door frames
-        and plywood works.
+        Contact us for window frames, door frames,
+        plywood works and custom wood works.
     </p>
 
 
-    <!-- DIRECT WHATSAPP -->
+    <h3>
+        📞 9731002875
+    </h3>
 
-    <div>
-
-        <a
-            class="whatsapp-button"
-            href="https://wa.me/919731002875"
-            target="_blank"
-            rel="noopener noreferrer">
-
-            💬 WhatsApp 9731002875
-
-        </a>
+    <h3>
+        📞 7349640166
+    </h3>
 
 
-        <a
-            class="whatsapp-button"
-            href="https://wa.me/917349640166"
-            target="_blank"
-            rel="noopener noreferrer">
+    <!-- WHATSAPP 1 -->
 
-            💬 WhatsApp 7349640166
+    <a
+        class="contact-whatsapp"
+        href="https://wa.me/919731002875?text=Hello%20Rajappa%20Wood%20Works,%20I%20am%20interested%20in%20your%20wood%20work%20services."
+        target="_blank"
+        rel="noopener noreferrer">
 
-        </a>
+        💬 WhatsApp - 9731002875
 
-    </div>
-
-
-    <!-- CALL BUTTONS -->
-
-    <div>
-
-        <a
-            class="call-button"
-            href="tel:9731002875">
-
-            📞 Call 9731002875
-
-        </a>
+    </a>
 
 
-        <a
-            class="call-button"
-            href="tel:7349640166">
+    <!-- WHATSAPP 2 -->
 
-            📞 Call 7349640166
+    <a
+        class="contact-whatsapp"
+        href="https://wa.me/917349640166?text=Hello%20Rajappa%20Wood%20Works,%20I%20am%20interested%20in%20your%20wood%20work%20services."
+        target="_blank"
+        rel="noopener noreferrer">
 
-        </a>
+        💬 WhatsApp - 7349640166
 
-    </div>
+    </a>
 
 
     <br><br>
 
 
-    <!-- CUSTOMER ENQUIRY FORM -->
-
-    <h3 style="color:#5a3219;">
-        📝 Send Your Enquiry
-    </h3>
+    <!-- CONTACT FORM -->
 
     <form onsubmit="submitForm(event)">
 
@@ -789,7 +810,7 @@
             class="btn"
             type="submit">
 
-            💬 Send Enquiry on WhatsApp
+            Send Enquiry
 
         </button>
 
@@ -798,7 +819,9 @@
 </section>
 
 
+<!-- ================================================= -->
 <!-- FOOTER -->
+<!-- ================================================= -->
 
 <footer>
 
@@ -807,7 +830,7 @@
     </h3>
 
     <p>
-        Windows Frames | Door Frames | Plywood Works
+        Window Frames | Door Frames | Plywood Works | Custom Wood Works
     </p>
 
     <p>
@@ -815,27 +838,11 @@
     </p>
 
     <p>
-        💬
-        <a
-            href="https://wa.me/919731002875"
-            target="_blank"
-            rel="noopener noreferrer">
-
-            WhatsApp: 9731002875
-
-        </a>
+        📞 9731002875
     </p>
 
     <p>
-        💬
-        <a
-            href="https://wa.me/917349640166"
-            target="_blank"
-            rel="noopener noreferrer">
-
-            WhatsApp: 7349640166
-
-        </a>
+        📞 7349640166
     </p>
 
     <p>
@@ -872,18 +879,20 @@
         </h2>
 
         <p>
-            Take a look at some of our window frames,
-            door frames and plywood works.
+            At **Rajappa Wood Works**, we provide a wide range of quality woodwork services including wooden window frames, plywood window frames, wooden door frames, main door frames, plywood works, custom wood works, window frame designs, door frame designs, house woodwork, office woodwork, customized wooden frames, wooden partition works, door shutter works, window shutter works, plywood furniture works, interior woodwork, wooden wall panel works, accurate wood cutting and frame making, customized plywood designs, and complete woodwork solutions for houses and offices. We focus on strong construction, accurate measurements, quality materials, neat finishing, and customized designs according to every customer's requirements.
+
         </p>
 
 
         <div class="explore-gallery">
 
 
+            <!-- WINDOW IMAGE -->
+
             <div class="explore-item">
 
                 <img
-                    src="window-explore.webp"
+                    src="a1"
                     alt="Wooden Window Frames">
 
                 <h3>
@@ -893,10 +902,12 @@
             </div>
 
 
+            <!-- DOOR FRAME IMAGE -->
+
             <div class="explore-item">
 
                 <img
-                    src="door-frame-1.webp"
+                    src="a2"
                     alt="Door Frames">
 
                 <h3>
@@ -906,10 +917,12 @@
             </div>
 
 
+            <!-- PLYWOOD IMAGE -->
+
             <div class="explore-item">
 
                 <img
-                    src="windows1.webp"
+                    src="a3"
                     alt="Plywood Works">
 
                 <h3>
@@ -919,10 +932,12 @@
             </div>
 
 
+            <!-- SECOND PLYWOOD IMAGE -->
+
             <div class="explore-item">
 
                 <img
-                    src="windows2.jpg"
+                    src="a4"
                     alt="Plywood Work">
 
                 <h3>
@@ -932,10 +947,12 @@
             </div>
 
 
+            <!-- SECOND DOOR IMAGE -->
+
             <div class="explore-item">
 
                 <img
-                    src="door-frame-2.webp"
+                    src="a5"
                     alt="Door Frame Work">
 
                 <h3>
@@ -944,31 +961,44 @@
 
             </div>
 
-
         </div>
 
 
-        <a
-            class="whatsapp-button"
-            href="https://wa.me/919731002875"
-            target="_blank"
-            rel="noopener noreferrer">
+        <!-- CALL BUTTON -->
 
-            💬 WhatsApp 9731002875
+        <a
+            class="call-button"
+            href="tel:9731002875">
+
+            📞 Call - 9731002875
 
         </a>
 
 
+        <!-- WHATSAPP 1 -->
+
         <a
             class="whatsapp-button"
-            href="https://wa.me/917349640166"
+            href="https://wa.me/919731002875?text=Hello%20Rajappa%20Wood%20Works,%20I%20am%20interested%20in%20your%20wood%20work%20services."
             target="_blank"
             rel="noopener noreferrer">
 
-            💬 WhatsApp 7349640166
+            💬 WhatsApp - 9731002875
 
         </a>
 
+
+        <!-- WHATSAPP 2 -->
+
+        <a
+            class="whatsapp-button"
+            href="https://wa.me/917349640166?text=Hello%20Rajappa%20Wood%20Works,%20I%20am%20interested%20in%20your%20wood%20work%20services."
+            target="_blank"
+            rel="noopener noreferrer">
+
+            💬 WhatsApp - 7349640166
+
+        </a>
 
     </div>
 
@@ -1002,7 +1032,7 @@
         </h2>
 
         <p>
-            Customized wooden window frames and available designs
+            Customized wooden window frames and available designs.
         </p>
 
 
@@ -1013,37 +1043,51 @@
                 alt="Wooden Window Frames">
 
             <img
-                src="shopping-2.webp"
+                src="windows2"
                 alt="Customized Wooden Window Frames">
 
             <img
-                src="Frames-Price-List.webp"
+                src="windows1"
                 alt="Window Frames Price List">
 
         </div>
 
 
-        <a
-            class="whatsapp-button"
-            href="https://wa.me/919731002875"
-            target="_blank"
-            rel="noopener noreferrer">
+        <!-- CALL -->
 
-            💬 WhatsApp 9731002875
+        <a
+            class="call-button"
+            href="tel:9731002875">
+
+            📞 Call - 9731002875
 
         </a>
 
 
+        <!-- WHATSAPP 1 -->
+
         <a
             class="whatsapp-button"
-            href="https://wa.me/917349640166"
+            href="https://wa.me/919731002875?text=Hello%20Rajappa%20Wood%20Works,%20I%20want%20to%20know%20about%20Window%20Frames."
             target="_blank"
             rel="noopener noreferrer">
 
-            💬 WhatsApp 7349640166
+            💬 WhatsApp - 9731002875
 
         </a>
 
+
+        <!-- WHATSAPP 2 -->
+
+        <a
+            class="whatsapp-button"
+            href="https://wa.me/917349640166?text=Hello%20Rajappa%20Wood%20Works,%20I%20want%20to%20know%20about%20Window%20Frames."
+            target="_blank"
+            rel="noopener noreferrer">
+
+            💬 WhatsApp - 7349640166
+
+        </a>
 
     </div>
 
@@ -1077,44 +1121,58 @@
         </h2>
 
         <p>
-            Quality door frames and wooden frame designs
+            Quality door frames and wooden frame designs.
         </p>
 
 
         <div class="modal-images">
 
             <img
-                src="door-frame-1.webp"
+                src="door2"
                 alt="Door Frame Work">
 
             <img
-                src="door-frame-2.webp"
+                src="door1"
                 alt="Door Frame Designs">
 
         </div>
 
 
-        <a
-            class="whatsapp-button"
-            href="https://wa.me/919731002875"
-            target="_blank"
-            rel="noopener noreferrer">
+        <!-- CALL -->
 
-            💬 WhatsApp 9731002875
+        <a
+            class="call-button"
+            href="tel:9731002875">
+
+            📞 Call - 9731002875
 
         </a>
 
 
+        <!-- WHATSAPP 1 -->
+
         <a
             class="whatsapp-button"
-            href="https://wa.me/917349640166"
+            href="https://wa.me/919731002875?text=Hello%20Rajappa%20Wood%20Works,%20I%20want%20to%20know%20about%20Door%20Frames."
             target="_blank"
             rel="noopener noreferrer">
 
-            💬 WhatsApp 7349640166
+            💬 WhatsApp - 9731002875
 
         </a>
 
+
+        <!-- WHATSAPP 2 -->
+
+        <a
+            class="whatsapp-button"
+            href="https://wa.me/917349640166?text=Hello%20Rajappa%20Wood%20Works,%20I%20want%20to%20know%20about%20Door%20Frames."
+            target="_blank"
+            rel="noopener noreferrer">
+
+            💬 WhatsApp - 7349640166
+
+        </a>
 
     </div>
 
@@ -1148,56 +1206,72 @@
         </h2>
 
         <p>
-            Quality plywood works and wooden designs
+            Quality plywood works and wooden designs.
         </p>
 
 
         <div class="modal-images">
 
             <img
-                src="windows1.webp"
+                src="ply1"
                 alt="Plywood Works">
 
             <img
-                src="windows2.jpg"
+                src="ply2"
                 alt="Plywood Work">
 
         </div>
 
 
-        <a
-            class="whatsapp-button"
-            href="https://wa.me/919731002875"
-            target="_blank"
-            rel="noopener noreferrer">
+        <!-- CALL -->
 
-            💬 WhatsApp 9731002875
+        <a
+            class="call-button"
+            href="tel:9731002875">
+
+            📞 Call - 9731002875
 
         </a>
 
 
+        <!-- WHATSAPP 1 -->
+
         <a
             class="whatsapp-button"
-            href="https://wa.me/917349640166"
+            href="https://wa.me/919731002875?text=Hello%20Rajappa%20Wood%20Works,%20I%20want%20to%20know%20about%20Plywood%20Works."
             target="_blank"
             rel="noopener noreferrer">
 
-            💬 WhatsApp 7349640166
+            💬 WhatsApp - 9731002875
 
         </a>
 
+
+        <!-- WHATSAPP 2 -->
+
+        <a
+            class="whatsapp-button"
+            href="https://wa.me/917349640166?text=Hello%20Rajappa%20Wood%20Works,%20I%20want%20to%20know%20about%20Plywood%20Works."
+            target="_blank"
+            rel="noopener noreferrer">
+
+            💬 WhatsApp - 7349640166
+
+        </a>
 
     </div>
 
 </div>
 
 
+<!-- ================================================= -->
 <!-- JAVASCRIPT -->
+<!-- ================================================= -->
 
 <script>
 
 
-/* EXPLORE OUR WORK */
+/* ================= EXPLORE OUR WORK ================= */
 
 function openExploreWorks() {
 
@@ -1229,7 +1303,7 @@ function closeExploreWorks(event) {
 }
 
 
-/* WINDOW FRAMES */
+/* ================= WINDOW FRAMES ================= */
 
 function openWindowFrames() {
 
@@ -1261,7 +1335,7 @@ function closeWindowFrames(event) {
 }
 
 
-/* DOOR FRAMES */
+/* ================= DOOR FRAMES ================= */
 
 function openDoorFrames() {
 
@@ -1293,7 +1367,7 @@ function closeDoorFrames(event) {
 }
 
 
-/* PLYWOOD WORKS */
+/* ================= PLYWOOD WORKS ================= */
 
 function openPlywoodWorks() {
 
@@ -1325,7 +1399,7 @@ function closePlywoodWorks(event) {
 }
 
 
-/* ESC KEY */
+/* ================= ESC KEY ================= */
 
 document.addEventListener(
     "keydown",
@@ -1357,72 +1431,26 @@ document.addEventListener(
 );
 
 
-/* ========================================= */
-/* WHATSAPP ENQUIRY FORM */
-/* ========================================= */
+/* ================= CONTACT FORM ================= */
 
 function submitForm(event) {
 
     event.preventDefault();
 
-    // Get customer details
-
     let name =
-        document.getElementById("name").value.trim();
+        document.getElementById("name").value;
 
     let phone =
-        document.getElementById("phone").value.trim();
+        document.getElementById("phone").value;
 
-    let email =
-        document.getElementById("email").value.trim();
-
-    let message =
-        document.getElementById("message").value.trim();
-
-
-    // Create WhatsApp message
-
-    let whatsappMessage =
-        "Hello Rajappa Wood Works,%0A%0A" +
-
-        "📝 CUSTOMER ENQUIRY%0A%0A" +
-
-        "👤 Name: " +
-        encodeURIComponent(name) +
-        "%0A" +
-
-        "📞 Phone: " +
-        encodeURIComponent(phone) +
-        "%0A" +
-
-        "📧 Email: " +
-        encodeURIComponent(email) +
-        "%0A" +
-
-        "🪵 Requirement: " +
-        encodeURIComponent(message) +
-
-        "%0A%0A" +
-
-        "Please contact me regarding my enquiry.";
-
-
-    // WhatsApp number
-
-    let whatsappURL =
-        "https://wa.me/919731002875?text=" +
-        whatsappMessage;
-
-
-    // Open WhatsApp
-
-    window.open(
-        whatsappURL,
-        "_blank"
+    alert(
+        "Thank you " +
+        name +
+        "!\n\n" +
+        "Your enquiry has been received.\n\n" +
+        "Phone: " +
+        phone
     );
-
-
-    // Clear form
 
     document
         .querySelector("form")
@@ -1436,3 +1464,4 @@ function submitForm(event) {
 </body>
 
 </html>
+
